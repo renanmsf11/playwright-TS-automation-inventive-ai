@@ -27,11 +27,6 @@ npx playwright test tests/e2e
 # Generate HTML report
 npx playwright show-report
 
-
-# Run all test only in chromium browser
-npx playwright test --project=chromium
-
-
 # Run tests in UI mode
 npx playwright test --ui
 
