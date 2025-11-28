@@ -3,13 +3,53 @@
 ---
 
 
+## 🚀 Running the Tests
+
+
+```bash
+
+# Steps
+01 - Clone or download ZIP of this REPO;
+02 - Open in a code editor (Vscode for example);
+03 - Run commands bellow
+
+
+# Install dependencies
+npm install
+npx playwright install
+
+# Run all tests
+npx playwright test
+
+# Run tests from a specific folder
+npx playwright test tests/e2e
+
+# Generate HTML report
+npx playwright show-report
+
+
+# Run all test only in chromium browser
+npx playwright test --project=chromium
+
+
+# Run tests in UI mode
+npx playwright test --ui
+
+```
+
+---
+
 ## 💡 Test Plan file 
+
+```
 
 tests/
 │
 ├── documents/ QA CHALLENGE - Inventive AI.pdf
 
-- 
+```
+
+
 
 ## 🧱 Project Structure
 
@@ -56,39 +96,6 @@ tests/
 
 ---
 
-## 🚀 Running the Tests
-
-
-```bash
-
-# Steps
-01 - Clone or download ZIP of this REPO;
-02 - Open in a code editor (Vscode for example);
-03 - Run commands bellow
-
-
-# Install dependencies
-npm install
-npx playwright install
-
-# Run all tests
-npx playwright test
-
-# Run tests from a specific folder
-npx playwright test tests/e2e
-
-# Generate HTML report
-npx playwright show-report
-
-
-# Run all test only in chromium browser
-npx playwright test --project=chromium
-
-
-# Run tests in UI mode
-npx playwright test --ui
-
-```
 
 ---
 
