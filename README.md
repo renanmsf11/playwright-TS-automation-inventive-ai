@@ -59,12 +59,14 @@ tests/
 ## 🚀 Running the Tests
 
 
+```bash
+
+# Steps
 01 - Clone or download ZIP of this REPO;
 02 - Open in a code editor (Vscode for example);
 03 - Run commands bellow
 
 
-```bash
 # Install dependencies
 npm install
 npx playwright install
